@@ -2,6 +2,6 @@
 - name: rhel collection calling
   hosts: testing
   collections:
-    - rhel.newuser
+    - rhel.user
   roles:
-    - rhel.newuser.mymotd    
+    - rhel.user.mymotd    
