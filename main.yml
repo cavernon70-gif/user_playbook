@@ -1,0 +1,7 @@
+---
+- name: rhel collection calling
+  hosts: testing
+  collections:
+    - rhel.newuser
+  roles:
+    - rhel.newuser.mymotd    
